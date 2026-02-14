@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fffbeb"/>
+  <ellipse cx="260" cy="300" rx="28" ry="40" fill="#d97706" />
+  <ellipse cx="320" cy="340" rx="22" ry="32" fill="#d97706" opacity="0.85"/>
+  <ellipse cx="360" cy="290" rx="18" ry="26" fill="#d97706" opacity="0.75"/>
+  <ellipse cx="480" cy="300" rx="28" ry="40" fill="#0f766e" />
+  <ellipse cx="540" cy="340" rx="22" ry="32" fill="#0f766e" opacity="0.85"/>
+  <ellipse cx="580" cy="290" rx="18" ry="26" fill="#0f766e" opacity="0.75"/>
+</svg>
