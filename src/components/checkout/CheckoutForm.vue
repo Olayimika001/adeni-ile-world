@@ -12,7 +12,6 @@ const props = defineProps({
       address2: '',
       city: '',
       state: '',
-      postalCode: '',
       country: '',
       paymentMethod: 'credit-card',
     }),
@@ -70,10 +69,6 @@ function validateForm() {
 
   if (!formData.value.state) {
     newErrors.state = 'State/Region is required'
-  }
-
-  if (!formData.value.postalCode) {
-    newErrors.postalCode = 'Postal code is required'
   }
 
   if (!formData.value.country) {
@@ -211,7 +206,7 @@ function handleSubmit() {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <label for="postalCode" class="block text-sm font-medium text-gray-700 mb-1">
-              Postal Code <span class="text-red-500">*</span>
+              Postal Code
             </label>
             <input
               id="postalCode"

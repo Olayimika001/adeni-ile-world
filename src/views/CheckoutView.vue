@@ -22,7 +22,6 @@ const formData = ref({
   address2: '',
   city: '',
   state: '',
-  postalCode: '',
   country: '',
   paymentMethod: 'credit-card',
 })
