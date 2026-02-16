@@ -70,8 +70,8 @@ const goToProducts = () => router.push('/products')
             <!-- Continue Shopping -->
             <div class="mt-4 sm:mt-6">
               <button
-                @click="continueShopping"
-                class="text-secondary text-sm sm:text-base font-medium hover:opacity-90 flex items-center gap-2"
+                @click="goToProducts"
+                class="text-secondary text-sm sm:text-base font-medium hover:opacity-90 flex items-center gap-2 cursor-pointer"
               >
                 <span>←</span>
                 <span>Continue Shopping</span>
@@ -89,8 +89,8 @@ const goToProducts = () => router.push('/products')
                 :tax="tax"
               >
                 <button
-                  @click="proceedToCheckout"
-                  class="w-full px-4 sm:px-6 py-3 text-sm sm:text-base bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 focus:ring-2 focus:ring-primary focus:ring-offset-2 transition shadow-md hover:shadow-lg"
+                  @click="goToCheckout"
+                  class="w-full px-4 sm:px-6 py-3 text-sm sm:text-base bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 focus:ring-2 focus:ring-primary focus:ring-offset-2 transition shadow-md hover:shadow-lg cursor-pointer"
                 >
                   Proceed to Checkout
                 </button>
@@ -109,8 +109,8 @@ const goToProducts = () => router.push('/products')
             Add some products to your cart to get started!
           </p>
           <button
-            @click="continueShopping"
-            class="inline-block px-5 sm:px-6 py-3 text-sm sm:text-base bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 transition"
+            @click="goToProducts"
+            class="inline-block px-5 sm:px-6 py-3 text-sm sm:text-base bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 transition cursor-pointer"
           >
             Browse Products
           </button>
